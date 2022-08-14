@@ -1,0 +1,63 @@
+@media only screen and (max-device-width: 480px) {
+    body {
+        margin-top: 2rem;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .grid50 {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    h4 {
+        font-size: medium;
+    }
+
+    article.benvenuto main div {
+        font-size: medium;
+    }
+
+    .time-machine {
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+    }
+
+    .grid25 {
+        display: grid;
+        width: 100%;
+        height: 95%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    aside {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    article.side {
+        grid-column: 1;
+        grid-row: 2/5;
+        min-height: 100%;
+        height: auto;
+    }
+    .social  {
+        display: none;
+    }
+
+    #selettore {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    aside details {
+        height: 50%;
+    }
+    
+}

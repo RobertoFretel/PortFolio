@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stile.css">
+    <link rel="stylesheet" href="assets/mobile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h4>Sito di Roberto Fretel</h4>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="mailto:jfreteljimenez@gmail.com">
+                    Contattami
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <article class="benvenuto">
+        <main class="grid50">
+            <div>
+                <hgroup>
+                    <h2>Mi chiamo Roberto Fretel</h2>
+                    e questo è il mio CV/Portfolio
+                </hgroup>
+            </div>
+            <div class="time-machine"></div>
+        </main>
+    </article>
+    <main class="container">
+        <center>
+            <br>
+            <span class="material-symbols-outlined">
+                <a class="icon off">expand_more</a>
+            </span>
+        </center>
+        <div id="continuo">
+            <main class="grid25">
+                <aside>
+                    <details open onclick="(e) => e.preventDefault()">
+                        <summary>
+                            <h3>Chi sono io?</h3>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </summary>
+                        <ul id="selettore">
+                            <li><span class="material-symbols-outlined">chevron_right</span>Presentazione</li>
+                            <li>Programmazione</li>
+                            <li>Competenze</li>
+                            <li>Progetti</li>
+                            <li>Crypto</li>
+                        </ul>
+                    </details>
+                </aside>
+                <article class="side">
+                    <div class="presentazione">
+                        <hgroup>
+                            <h4>Il mio nome sta nel titolo del sito</h4>
+                            <p>
+                                Infatti si mi chiamo Roberto Fretel, ho 16 anni e frequento il liceo scientifico tradizionale, e la domanda
+                                è perchè non ho scelto un istituto tecnico? beh non lo so nemmeno io, ma mi va bene così. Sono un ragazzo
+                                molto introverso, per questo sembro asociale, e in effetti un poco lo sono, ma solo perchè mi piace di più
+                                programmare qualcosa o creare qualche sito che alla fine cancello e rincomincio da capo. Tutto quello che so
+                                l'ho imparato da vari tutorial su Youtube (ringraziamento speciale a "Vita da Founder" e "SoyDalto")
+                                e ogni volta che scopro qualcosa di nuovo che mi piace lo voglio provare subito, allo stesso modo però se un
+                                framework non mi piace o non mi convince faccio di tutto per evitarlo nei miei progettini (React.. spiaze)
+                            </p>
+                            <p>
+                                Le mie passioni oltre alla programmazione sono giocare a Minecraft e guardare Anime, ma anche perdere soldi con ETH!
+                                Principalmente guardo anime sentimentali e romantici, ma mi piace anche variare. Di minecraft mi piacciono
+                                troppo le BedWars, anche se purtroppo stanno morendo. 
+                                <br> Delle Crypto ne parlerò tra qualche mese, perchè ho iniziato da poco con ETH (e devo dire che mi sta andano bene per ora)
+                            </p>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="mailto:jfreteljimenez@gmail.com">
+                                            Gmail
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://t.me/robertofretel">
+                                            Telegram
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://github.com/RobertoFretel">
+                                            Github
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </hgroup>
+                    </div>
+                    <div class="programmazione" style="display: none;"> 
+                        <hgroup>
+                            <h4>Non vi siete annoiati? allora continuo..</h4>
+                            <p>
+                                Ho iniziato con wix a creare siti, anche se mi ha annoiato subito, così ho deciso che dovevo imparare 
+                                il codice HTML. Il primo sito che avevo creato avevo una immagine come sfondo e un titolo centrato con
+                                <code>&lt;center&gt;</code> e del testo messo li a caso. Ho deciso che dovevo imparare CSS, perchè sinceramente
+                                non si potevano vedere i siti senza, così ho guardato i tutorial di Vita da Founder, mentre che JavaScript l'ho
+                                imparato grazie a un canale argentino SoyDalto 
+                            </p>
+                            <p>Ho provato altri linguaggi di programmazione oltre a Python, come C# e Java, ma non mi sono piaciuti, come non mi
+                                è piaciuta la programmazione orientata a oggetti. Su python ho usato molte librerie
+                                e ho partecipato ad un progetto della ESA con la scuola per programmare un esperimento da mandare nello spazio
+                                attraverso un Raspberry PI 4 e sono arrivato con la mia squadra fino alla fine, ma non abbiamo vinto :(
+                            </p>
+                            <p>NodeJS lo so usare principalmente lato Backend, che Frontend, infatti ho imparato a collegare database sql e non sql
+                                tipo mongoDB o Firebase, ho imparato a creare server Express, ricevere richieste get e post e usare socket-io.
+                                Inoltre nel mentre ho imparato anche ad usare PeerJS. React non lo so usare, Vue a malapena, l'unico framework
+                                che mi piace è Lit, ma non lo uso spesso anche percè non mi serve
+                            </p>
+                        </hgroup>
+                    </div>
+                    <div class="competenze" style="display: none;">          
+                        <hgroup>
+                            <h4>Nessuno ha mai verificato le mie competenze, ma se vuoi..</h4>
+                            
+                                Python:
+                                <ul>
+                                    <li>pygame: ho creato Flappy Bird</li>
+                                    <li>kivy: usato ma non sono molto bravo</li>
+                                    <li>web scraping: capace</li>
+                                    <li>selenium: abbastanza capace</li>
+                                    <li>server http in python mai fatti</li>
+                                </ul>
+                                HTML, CSS: valutate voi, JS so quasi tutto modestamente
+                            <br><br>
+                            NodeJS:
+                                <ul>
+                                    <li>ViteJS con Lit: usati abbastanza</li>
+                                    <li>React o Vue: a malapena li conosco</li>
+                                    <li>ExpressJS: usato un sacco</li>
+                                    <li>Socket-io: usato un sacco</li>
+                                    <li>Database SQL e NON in node: abbastanza</li>
+                                </ul>
+                            
+                            Flutter: non riuscivo a farlo partire..
+                            C#, Java: a malapena la sintassi
+                            <br>
+                            PHP quando mi capita lo uso: so la sintassi e +- qualcosa ti faccio
+                        </hgroup>
+                    </div>
+                    <div class="progetti" style="display: none;">      
+                        <hgroup>
+                            <h4>Ne ho molti pochi</h4>
+                            <p>
+                                A dir la verità senza considerare questo sito non sto lavorando a niente in particolare, come ho già detto prima
+                                la maggior parte delle cose che inizio le cancello perchè non mi attraggono più. Ho finito pochi progetti, tra i
+                                quali un server con express e socket-io per caricare dei video e vederli in contemporanea con dei comandi custom,
+                                e un server SolidJS con PeerJS per fare una specie di video chat app (mi piacerebbe mettervi il link github, ma li
+                                ho cancellati..)
+                            </p>
+                        </hgroup>
+                    </div>
+                    <div class="crypto" style="display: none;">         
+                        <hgroup>
+                            <h4></h4>
+                        </hgroup>
+                    </div>
+                </article>
+            </main>
+        </div>
+    </main>
+    <script src="assets/tabs.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
